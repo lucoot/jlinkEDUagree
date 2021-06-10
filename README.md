@@ -1,6 +1,6 @@
 # jlinkEDUagree
 A script to remove the daily Segger J-Link EDU license agreement pop-up.
-[![jlink.jpg](https://i.postimg.cc/GhRYMb8h/jlink.jpg)](https://postimg.cc/rzhKsXNv)
+<img src="https://i.postimg.cc/GhRYMb8h/jlink.jpg)](https://postimg.cc/rzhKsXNv" width="50%">
 
 ## Operation
 The agreement stores the date when the user clicks agree. On opening Segger/J-LINK it checks the date and asks the user to agree if the value stored is not today.
@@ -15,4 +15,5 @@ Under settings check the box next to "Run task as soon as possible after a sched
 
 ### OS X
 Use crontab or launchd to run the script at 12AM or at login each day.
-0 0 * * * ~/jlinkEDUagreeOSX.sh >/dev/null 2>&1
+'''0 0 * * * ~/jlinkEDUagreeOSX.sh >/dev/null 2>&1
+'''
